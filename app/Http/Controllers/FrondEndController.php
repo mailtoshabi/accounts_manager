@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class FrondEndController extends Controller
 {
     public function homePage() {
-        $colors = ['blue', 'green', 'red'];
+        $colors = ['blue', 'green', 'red', 'yellow'];
         return view('welcome',compact('colors'));
     }
 
